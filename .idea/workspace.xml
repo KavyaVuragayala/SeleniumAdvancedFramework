@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d215e177-a3b4-49ed-9488-0ad60420a6a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Optimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_vwo_Optimized.xml" afterDir="false" />
+    <list default="true" id="d215e177-a3b4-49ed-9488-0ad60420a6a6" name="Changes" comment="60% Framework">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kavya/base/CommonToAllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kavya/base/CommonToAllTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Normal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Normal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_vwo_normalExecution.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_vwo_normalExecution.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Optimized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Optimized.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +126,19 @@
       <option name="presentableId" value="Default" />
       <updated>1765357486556</updated>
     </task>
+    <task id="LOCAL-00001" summary="60% Framework">
+      <option name="closed" value="true" />
+      <created>1765458670713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765458670713</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="60% Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="60% Framework" />
   </component>
 </project>
