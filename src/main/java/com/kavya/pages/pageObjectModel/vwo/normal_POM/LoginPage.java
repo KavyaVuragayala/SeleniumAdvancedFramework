@@ -1,4 +1,4 @@
-package com.kavya.pages.pageObjectModel.vwo;
+package com.kavya.pages.pageObjectModel.vwo.normal_POM;
 import com.kavya.utils.PropertiesReader;
 import com.kavya.utils.WaitHelpers;
 import org.openqa.selenium.By;

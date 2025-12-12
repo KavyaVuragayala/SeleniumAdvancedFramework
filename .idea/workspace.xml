@@ -4,10 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d215e177-a3b4-49ed-9488-0ad60420a6a6" name="Changes" comment="60% Framework">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="d215e177-a3b4-49ed-9488-0ad60420a6a6" name="Changes" comment="75% Framework">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/improved_POM/DashBoardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/improved_POM/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kavya/utils/TakeScreenShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/listeners/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/listeners/RetryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/listeners/ScreenShotListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/DataDrivenTesting/DataDrivenTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_3_ImprovedPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_4_Retry_ImprovedPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_5_ScreenShot_ImprovedPOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_vwo_improvedPOM.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Optimized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Optimized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/base/CommonToAllPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/DashBoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/normal_POM/DashBoardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/FreeTrailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/normal_POM/FreeTrailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/normal_POM/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Normal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_1_Normal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Optimized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_2_Optimized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kavya/utilsExcel/UtilExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kavya/utilsExcel/UtilExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_vwo_Optimized.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_vwo_Optimized.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_vwo_normalExecution.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_vwo_normalExecution.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +80,12 @@
     "TestNG.TestVWOLogin_Normal.testLoginInvalidVWO.executor": "Debug",
     "TestNG.TestVWOLogin_Optimized.testLoginInvalidVWO.executor": "Run",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/pc/IdeaProjects/SeleniumAdvancedFramework"
+    "last_opened_file_path": "C:/Users/pc/IdeaProjects/SeleniumAdvancedFramework/src/test/resources"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\IdeaProjects\SeleniumAdvancedFramework\src\test\resources" />
       <recent name="C:\Users\pc\IdeaProjects\SeleniumAdvancedFramework" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -92,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin_Optimized.testLoginInvalidVWO" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVWOLogin_2_Optimized.testLoginInvalidVWO" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumAdvancedFramework" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +122,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kavya.tests.vwo.pageObjectModel" />
-      <option name="MAIN_CLASS_NAME" value="com.kavya.tests.vwo.pageObjectModel.TestVWOLogin_Optimized" />
+      <option name="MAIN_CLASS_NAME" value="com.kavya.tests.vwo.pageObjectModel.TestVWOLogin_2_Optimized" />
       <option name="METHOD_NAME" value="testLoginInvalidVWO" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -113,7 +134,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/pc/IdeaProjects/SeleniumAdvancedFramework/testng_vwo_Optimized.xml" />
-        <item itemvalue="TestNG.TestVWOLogin_Optimized.testLoginInvalidVWO" />
+        <item itemvalue="TestNG.TestVWOLogin_2_Optimized.testLoginInvalidVWO" />
         <item itemvalue="TestNG.C:/Users/pc/IdeaProjects/SeleniumAdvancedFramework/testng_vwo_normalExecution.xml" />
       </list>
     </recent_temporary>
@@ -134,11 +155,20 @@
       <option name="project" value="LOCAL" />
       <updated>1765458670713</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="75% Framework">
+      <option name="closed" value="true" />
+      <created>1765460577208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765460577209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="60% Framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="60% Framework" />
+    <MESSAGE value="75% Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="75% Framework" />
   </component>
 </project>

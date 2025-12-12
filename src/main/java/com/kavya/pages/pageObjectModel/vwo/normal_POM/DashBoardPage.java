@@ -1,5 +1,6 @@
-package com.kavya.pages.pageObjectModel.vwo;
+package com.kavya.pages.pageObjectModel.vwo.normal_POM;
 
+import com.kavya.utils.PropertiesReader;
 import com.kavya.utils.WaitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +17,7 @@ public class DashBoardPage {
 
     public String loggedInUsername(){
         WaitHelpers.waitJVM(10000);
-        driver.get("https://app.vwo.com/#/dashboard");
+        driver.get(PropertiesReader.readKey("url_dashboard"));
         return driver.findElement(userNameDashBoard).getText();
     }
 

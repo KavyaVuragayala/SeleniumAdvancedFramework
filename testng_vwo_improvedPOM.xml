@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:\Users\pc\IdeaProjects\SeleniumAdvancedFramework">
+    <test verbose="2" preserve-order="true" name="/Users/promode/IdeaProjects/ATB13xSeleniumAdvanceFramework">
         <classes>
-            <class name="com.kavya.tests.vwo.pageObjectModel.TestVWOLogin_2_Optimized">
+            <class name="com.kavya.tests.vwo.pageObjectModel.TestVWOLogin_3_ImprovedPOM">
             </class>
         </classes>
     </test>
