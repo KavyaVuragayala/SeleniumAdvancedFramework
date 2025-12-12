@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d215e177-a3b4-49ed-9488-0ad60420a6a6" name="Changes" comment="75% Framework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/improved_POM/DashBoardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/improved_POM/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kavya/utils/TakeScreenShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/listeners/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/listeners/RetryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/listeners/ScreenShotListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/DataDrivenTesting/DataDrivenTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_3_ImprovedPOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_4_Retry_ImprovedPOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_5_ScreenShot_ImprovedPOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng_vwo_improvedPOM.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/base/CommonToAllPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/DashBoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/normal_POM/DashBoardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/FreeTrailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/normal_POM/FreeTrailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageObjectModel/vwo/normal_POM/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Normal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_1_Normal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_Optimized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kavya/tests/vwo/pageObjectModel/TestVWOLogin_2_Optimized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kavya/utilsExcel/UtilExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kavya/utilsExcel/UtilExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_vwo_Optimized.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_vwo_Optimized.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_vwo_normalExecution.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_vwo_normalExecution.xml" afterDir="false" />
+    <list default="true" id="d215e177-a3b4-49ed-9488-0ad60420a6a6" name="Changes" comment="95% Framework">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageFactory/vwo/LoginPage_PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kavya/pages/pageFactory/vwo/LoginPage_PF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,12 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1765460577209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="95% Framework">
+      <option name="closed" value="true" />
+      <created>1765528204608</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765528204608</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="60% Framework" />
     <MESSAGE value="75% Framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="75% Framework" />
+    <MESSAGE value="95% Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="95% Framework" />
   </component>
 </project>
