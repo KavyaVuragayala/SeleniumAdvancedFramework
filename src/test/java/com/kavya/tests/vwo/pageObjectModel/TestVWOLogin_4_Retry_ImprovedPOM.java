@@ -17,12 +17,12 @@ import org.testng.annotations.Test;
 import static com.kavya.driver.DriverManager.getDriver;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
+@Test(retryAnalyzer = RetryAnalyzer.class)
 public class TestVWOLogin_4_Retry_ImprovedPOM extends CommonToAllTest {
     // step 1 : Driver                   D
     // step 2: Locators                  L
     // step 3 : Validation / Assertion   V
 
-    @Test(retryAnalyzer = RetryAnalyzer.class)
     private static final Logger logger = LogManager.getLogger(TestVWOLogin_4_Retry_ImprovedPOM.class);
 
 
